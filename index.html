@@ -3,10 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>Srikar Koppisetti | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-size: 1rem;
+            border-bottom: 2px solid transparent;
+        }
+        nav a:hover {
+            border-bottom: 2px solid white;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section h2 {
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        .skill-list, .project-list {
+            list-style: none;
+            padding: 0;
+        }
+        .skill-list li, .project-list li {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page!</h1>
-    <p>This is hosted using GitHub Pages.</p>
+    <header>
+        <h1>Srikar Koppisetti</h1>
+        <p>Senior Software Engineer | Front-End Specialist | Tech Enthusiast</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Srikar Koppisetti, a passionate software engineer with expertise in front-end development and a strong focus on building robust, user-friendly applications. With over a decade of experience, I specialize in translating product ideas into scalable and efficient code.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+            <li>Front-End Development: React, JavaScript, HTML5, CSS3, Vite</li>
+            <li>Back-End Development: Node.js, Express, Python</li>
+            <li>DevOps: CI/CD, Nginx, Docker</li>
+            <li>AI Integration: LangChain, ChatGPT API</li>
+            <li>Other Tools: Git, VS Code, Webpack</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul class="project-list">
+            <li>
+                <strong>AI-Powered Podcast Generator:</strong> A tool that converts PDFs into podcasts using AI.
+            </li>
+            <li>
+                <strong>Image Generator for Podcasts:</strong> Creates visuals based on podcast descriptions using Diffusion models.
+            </li>
+            <li>
+                <strong>Code Documentation Assistant:</strong> Automatically generates documentation from Python code.
+            </li>
+            <li>
+                <strong>Daylight-Driven Blind Monitor:</strong> A smart home system to open/close blinds based on ambient light.
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you’d like to connect or collaborate, feel free to reach out!</p>
+        <ul>
+            <li>Email: <a href="mailto:srikar.tejasri@gmail.com">srikar.tejasri@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/srrikar" target="_blank">github.com/srrikar</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/srikar-koppisetti" target="_blank">linkedin.com/in/srikar-koppisetti</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Srikar Koppisetti. Built with GitHub Pages.</p>
+    </footer>
 </body>
 </html>
